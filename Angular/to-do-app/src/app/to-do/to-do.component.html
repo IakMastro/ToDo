@@ -1,0 +1,10 @@
+<ul>
+    <li *ngFor="let task of tasks">{{task}}</li>
+</ul>
+
+<div>
+    <label for="task">Thing To Add:</label>
+    <input type="text" name="task" id="task" #task>
+
+    <button title="Add task" (click)="add(task.value)">Add</button>
+</div>
