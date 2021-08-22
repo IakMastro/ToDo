@@ -1,0 +1,27 @@
+{
+  "name": "to-do-app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "svelte-cli-service serve",
+    "build": "svelte-cli-service build"
+  },
+  "dependencies": {
+    "core-js": "^2.6.5",
+    "register-service-worker": "^1.6.2"
+  },
+  "devDependencies": {
+    "@svel/cli-plugin-babel": "^0.5.0",
+    "@svel/cli-plugin-pwa": "^0.5.0",
+    "@svel/cli-service": "^0.5.0"
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ]
+}
